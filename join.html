@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved in Our Cause to Save the Ocean</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #e0f7fa;
+        }
+        section {
+            padding: 60px;
+            background-color: #f7fafc;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #0a9396;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        h1 span {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 100px;
+            height: 4px;
+            background-color: #ee9b00;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+        p {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+        .action-box {
+            flex: 1 1 280px;
+            max-width: 300px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .action-box h3 {
+            color: #005f73;
+            font-size: 1.6rem;
+        }
+        .action-box p {
+            font-size: 1rem;
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #00796b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        /* Hover effects */
+        .action-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+
+    <section id="get-involved">
+        <h1>Get Involved in Our Cause to Save the Ocean<span></span></h1>
+        <p>Join us in our mission to protect and restore our oceans! Every individual can make a difference, and together, we can create a cleaner, healthier environment for marine life. Here are several ways you can get involved:</p>
+
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
+            <div class="action-box">
+                <h3>Volunteer for Beach Clean-Ups</h3>
+                <p>Participate in local beach clean-up events to help remove debris from our shorelines.</p>
+                <a href="#" class="button">Find a Clean-Up Event</a>
+            </div>
+            <div class="action-box">
+                <h3>Spread Awareness</h3>
+                <p>Use your voice to educate others about the importance of protecting our oceans.</p>
+                <a href="#" class="button">Share on Social Media</a>
+            </div>
+            <div class="action-box">
+                <h3>Reduce Plastic Use</h3>
+                <p>Make a conscious effort to reduce your plastic consumption by using reusable items.</p>
+                <a href="#" class="button">Learn More About Reducing Plastic</a>
+            </div>
+            <div class="action-box">
+                <h3>Advocate for Policy Change</h3>
+                <p>Engage with local policymakers to advocate for stronger environmental protection laws.</p>
+                <a href="#" class="button">Contact Your Representatives</a>
+            </div>
+            <div class="action-box">
+                <h3>Support Ocean Conservation Organizations</h3>
+                <p>Consider donating to or volunteering with organizations dedicated to ocean conservation.</p>
+                <a href="#" class="button">Find Organizations to Support</a>
+            </div>
+            <div class="action-box">
+                <h3>Participate in Educational Workshops</h3>
+                <p>Join workshops focusing on marine conservation and sustainability.</p>
+                <a href="#" class="button">Explore Workshops</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CSS for hover effects and animations -->
+    <style>
+        /* Fade-in animation */
+        #get-involved h1, #get-involved p, .action-box {
+            opacity: 0;
+            animation: fadeIn 1s ease forwards;
+        }
+        #get-involved h1 { animation-delay: 0.3s; }
+        #get-involved p { animation-delay: 0.5s; }
+        .action-box { animation-delay: 0.7s; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+
+</body>
+</html>
